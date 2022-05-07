@@ -57,8 +57,8 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 knife.extendBlade();
 //  action 2: Retract knife blade
 knife.retractBlade();
-//  action 3: Hold knife Menacingly
-knife.holdMenacingly();
+//  action 3: Lock the knife blade
+knife.lockBlade();
 //  2)
 //  Noun: cat
 //  action 1: Make a meow sound
