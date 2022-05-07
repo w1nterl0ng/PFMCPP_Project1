@@ -52,97 +52,97 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: knife
+//  action 1: Extend knife blade
+knife.extendBlade();
+//  action 2: Retract knife blade
+knife.retractBlade();
+//  action 3: Lock the knife blade
+knife.lockBlade();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: cat
+//  action 1: Make a meow sound
+cat.meow();
+//  action 2: scratch an attacker
+cat.scratchAttacker();
+//  action 3: Jump
+cat.jump();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: box
+//  action 1: Open the lid of the box
+box.openLid();
+//  action 2: Rotate the Box clockwise
+box.rotateClockwise();
+//  action 3: change corner radius
+box.changeCornerRadius();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: person
+//  action 1: Raise their arm
+person.raiseArm();
+//  action 2: Cry
+person.cry();
+//  action 3: Dopr to the ground
+person.dropToTheGround();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Seat
+//  action 1: Move Seat Forward
+seat.moveForward();
+//  action 2: Eject from vehicle
+seat.ejectFromVehicle();
+//  action 3: Deploy Airbags
+seat.deployAirbag();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Screw Dreiver
+//  action 1: screw in clockwise 
+screwDriver.screw();
+//  action 2: unscrew counter clockwise
+screwDriver.unscrew();
+//  action 3: gouge surface
+screwDriver.gougeSurface();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: Car
+//  action 1: Turn Left
+car.turnLeft();
+//  action 2: Accelerate
+car.accelerate();
+//  action 3: Close the gap.
+car.closeTheGap();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: phone
+//  action 1: call home
+phone.callHome();
+//  action 2: sound the alarm
+phone.soundAlarm();
+//  action 3: sene an email
+phone.sendEmail();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: horse
+//  action 1: buck the rider
+horse.buckRider();
+//  action 2: do simple math
+horse.doMath();
+//  action 3: eat
+horse.eat();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
-
+//  Noun: blender
+//  action 1: Blend Juice
+blender.blendJuice();
+//  action 2: Puree food
+blender.pureeFood();
+//  action 3: spray food around the room
+blender.sprayFoodAroundRoom();
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
-    Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+ 
+ If you didn't already:
+	Make a pull request after you make your first commit
+	pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +150,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+	std::cout << "good to go" << std::endl;
+	return 0;
 }
