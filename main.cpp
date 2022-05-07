@@ -53,12 +53,12 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 //  1)
 //  Noun: knife
-//  action 1: Stab a Player
-knife.stab();
-//  action 2: Slash a Player
-knife.slash();
+//  action 1: Extend knife blade
+knife.extendBlade();
+//  action 2: Retract knife blade
+knife.retractBlade();
 //  action 3: Hold knife Menacingly
-knife.menace();
+knife.holdMenacingly();
 //  2)
 //  Noun: cat
 //  action 1: Make a meow sound
@@ -69,26 +69,26 @@ cat.scratchAttacker();
 cat.jump();
 //  3)
 //  Noun: box
-//  action 1: Move the box
-box.move();
+//  action 1: Open the lid of the box
+box.openLid();
 //  action 2: Rotate the Box clockwise
 box.rotateClockwise();
-//  action 3: Flip the box
-box.flipX();
+//  action 3: change corner radius
+box.changeCornerRadius();
 //  4)
-//  Noun: dice
-//  action 1: Roll the dice
-dice.roll();
-//  action 2: pick up the dice
-dice.pickup();
-//  action 3: Drop the Dice
-dice.drop();
+//  Noun: person
+//  action 1: Raise their arm
+person.raiseArm();
+//  action 2: Cry
+person.cry();
+//  action 3: Dopr to the ground
+person.dropToTheGround();
 //  5)
 //  Noun: Seat
 //  action 1: Move Seat Forward
 seat.moveForward();
 //  action 2: Eject from vehicle
-seat.eject();
+seat.ejectFromVehicle();
 //  action 3: Deploy Airbags
 seat.deployAirbag();
 //  6)
@@ -105,8 +105,8 @@ screwDriver.gougeSurface();
 car.turnLeft();
 //  action 2: Accelerate
 car.accelerate();
-//  action 3: Narrow the distance to the car leading it.
-car.tailgate();
+//  action 3: Close the gap.
+car.closeTheGap();
 //  8)
 //  Noun: phone
 //  action 1: call home
@@ -126,11 +126,11 @@ horse.eat();
 //  10)
 //  Noun: blender
 //  action 1: Blend Juice
-blender.juice();
+blender.blendJuice();
 //  action 2: Puree food
-blender.puree();
+blender.pureeFood();
 //  action 3: spray food around the room
-blender.explode();
+blender.sprayFoodAroundRoom();
 #endif
 
 /*
